@@ -1,6 +1,6 @@
 # TODO This file is going away, but we need it temporarily for compatibility with the integration scaffolder.
 
-# 🚅 super scaffolding will insert new oauth providers above this line.
+# 🚅 super scaffolding will insert new oauth providers above this line.kk
 
 def any_oauth_enabled?
   [

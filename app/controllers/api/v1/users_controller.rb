@@ -11,7 +11,7 @@ class Api::V1::UsersController < Api::V1::ApplicationController
 
   def permitted_arrays
     {
-      # 🚅 super scaffolding will insert new arrays above this line.
+      # 🚅 super scaffolding will insert new arrays above this line.aaa
     }
   end
 

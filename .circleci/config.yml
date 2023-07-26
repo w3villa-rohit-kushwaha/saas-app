@@ -38,7 +38,7 @@ aliases:
           POSTGRES_DB: bullettrainsuperrails_test
           POSTGRES_USER: bullettrainsuperrails
   - &wait_for_docker
-      # We run this because the DB might not be available for a while due to a race condition.
+      # We run this because the DB might not be available for a while due to a race conditionjj.
       run: dockerize -wait tcp://localhost:5432 -timeout 1m
 
 jobs:
